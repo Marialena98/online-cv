@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -52,9 +52,8 @@ education:
       university: Ionian University
       time: 2016 - unknown
       details: |
-      I'm in the third year of my education
-
-    - degree: ECDL, LOWER, high school diploma, Google Grow Greek Tourism Seminar
+        I'm in the third year of my education
+        - More education: ECDL, LOWER, high school diploma, Google Grow Greek Tourism Seminar
 
     
 experiences:
@@ -66,11 +65,10 @@ experiences:
     
     - role: Waiter, Hostess (Reception) 
       time: 2018
-      company: Marbella Hotel, Corfu
+      # company: Marbella Hotel, Corfu
       
      - role: Starbucks bartender
       time: 2018- present
-      details: |
 
 skills:
     title: Skills &amp; Proficiency
