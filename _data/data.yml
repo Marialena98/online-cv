@@ -57,18 +57,18 @@ education:
 
     
 experiences:
-    - role: Seller in a tourist shop in the old town of Corfu
-      time: 2017 
+     - role: Seller in a tourist shop in the old town of Corfu
+       time: 2017 
      
-    - role:Seller in a tourist shop in the old town of Corfu
-      time: 2018
+     - role:Seller in a tourist shop in the old town of Corfu
+       time: 2018
     
-    - role: Waiter, Hostess (Reception) 
-      time: 2018
+     - role: Waiter, Hostess (Reception) 
+       time: 2018
       # company: Marbella Hotel, Corfu
       
      - role: Starbucks bartender
-      time: 2018- present
+       time: 2018- present
 
 skills:
     title: Skills &amp; Proficiency
