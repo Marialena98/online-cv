@@ -53,37 +53,45 @@ education:
       time: 2016 - unknown
       details: |
         I'm in the third year of my education
-        - More education: ECDL, LOWER, high school diploma, Google Grow Greek Tourism Seminar
+        More education: ECDL, LOWER, high school diploma, knowledge of programming languages(C, C++, JAVA),
+        Google Grow Greek Tourism Seminar
 
     
 experiences:
+
      - role: Seller in a tourist shop in the old town of Corfu
        time: 2017 
      
-     - role:Seller in a tourist shop in the old town of Corfu
+     - role: Seller in a tourist shop in the old town of Corfu
        time: 2018
     
      - role: Waiter, Hostess (Reception) 
        time: 2018
-      # company: Marbella Hotel, Corfu
+      #  company: Marbella Hotel, Corfu
       
      - role: Starbucks bartender
-       time: 2018- present
+       time: 2018 - present
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
-        level: 50%
+      - name: Python & Django
+        level: 98%
 
-      - name: Java
-        level: 90%
+      - name: Javascript & jQuery
+        level: 98%
 
-      - name: C++
-        level: 80%
+      - name: Angular
+        level: 98%
 
-      - name: C
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
         level: 60%
 
 footer: >
