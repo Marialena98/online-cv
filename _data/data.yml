@@ -50,7 +50,7 @@ career-profile:
 education:
     - degree: Bachelor Of Computer Science
       university: Ionian University
-      time: 2016 - unknown
+      time: 2016 
       details: |
         I'm in the third year of my education
         More education: ECDL, LOWER, high school diploma, knowledge of programming languages(C, C++, JAVA),
@@ -71,6 +71,10 @@ experiences:
       
      - role: Starbucks bartender
        time: 2018 - present
+       
+     - role: Advertiser,Promoter
+       time: 2018 - present
+      #  company: NMS Διαφημιστική,Corfu Greece
 
 skills:
     title: Skills &amp; Proficiency
