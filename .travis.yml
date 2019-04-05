@@ -1,0 +1,17 @@
+branches:
+  only:
+    - master 
+language: bash
+env:
+  global:
+  - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
+  - secure: gAZoC9dxD6odql09vzttm402QKu+342Ixd7qO5cg3wKQBkP4HpTWyItTogKAOnMFPRIY0XVbJ/5Rmwspd9IgN8MOQyKJvO2Td4FIGTB1wOqVvIG2iVlpgxl9ys2IFL0fCIG/J1xnxSZfnpzTwl76lS4Gx1S2uHucvYE7XxxEk2mhD6jrqEVsuye2eYQyrpZJg5Nhrb15xWuitHf7iqx5twRJPP+VfJtxb8VrEx/B1uw6+fk2Yy5mdi/ix+SzP/aInl2lsS/usaHPMeyTDdP+S0ekR6JxqXjDQRDNgNtxg1FJF4lEw9D3r1W56F46G5i/I0AiJSh6s6MGJrcDphjKgZaw5T2ub3HzbJ6wnTpS7b3ikVYI+CK2wRkpKOwSkqEbiXaSnDTosvAyS0eidtcUT50mSdeY6UIRbtFOWvmpmdDs7xJp7PvecHvGrc2danyoVTrkqSOgHJZqqSbmqfxXKsenrYim7FfqDOcMcrug74lz03s9khVXLT4Fj67heEmvs2ZrwtBgV6iSpYDrpQiGnyl9m8VgModFOFfX3dPyPuM8+XZD4Y8q6q2Fx3YYXt2YQyVkeZAELEKKdD6WWyT+54mholqydGOmF77LLUUcVOZcjzPNlHNu/9PeIb9Jm9IKDV/Lzwh2MzZXDa79lUU/HEIIa5cM/NMZczZizMZ4ZFw=
+before_install:
+  - wget https://github.com/jgm/pandoc/releases/download/2.7.1/pandoc-2.7.1-1-amd64.deb
+  && ar p pandoc-2.7.1-1-amd64.deb data.tar.xz | tar xJ
+  - sudo apt-get update -qq
+  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+    texlive-fonts-recommended 
+  - sudo apt-get install lmodern
+  script:
+    - make 
