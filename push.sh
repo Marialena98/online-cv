@@ -7,7 +7,7 @@ setup_git() {
 
 commit_website_files() {
   git checkout master
-  git add _data *.pdf
+  git add . *.pdf
   git commit --message "[skip ci] Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
