@@ -13,5 +13,8 @@ before_install:
 - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
   texlive-fonts-recommended
 - sudo apt-get install lmodern
+- chmod +x push.sh
 script:
 - make
+after_success:
+- "./push.sh"
